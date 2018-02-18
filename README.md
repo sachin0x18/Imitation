@@ -2,6 +2,7 @@
 ROS-Kinetic Package that facilitates imitation of Human actions by Humanoid (built using Dynamixel Servos). Human actions are recorded by Kinect sensor.
 
 Using vector geometry and quaternions, coordinates of human joints are published. Using these coordinates, servo angles are written to Dynamixel servos thus imitating human actions in real time.
+> $ rosrun openni_tracker openni_tracker
 > $ rosrun Imitation final.py
 
 # SLAM
